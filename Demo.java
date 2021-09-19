@@ -11,11 +11,11 @@ public class Demo
 	 */
 	public static void main(String[] args)
 	{
-		int m = 6, n =2;
+		int m = 6, n =4;
 		int r1 = m + n;
 		int r2 = m - n;
 		int r3 = m * n ;
-		int r4 = m / n;
+		double r4 = (double) m / n;
 		
 		System.out.println(r1);
 		System.out.println(r2);
