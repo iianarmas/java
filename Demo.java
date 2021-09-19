@@ -17,9 +17,12 @@ public class Demo
 		int r3 = m * n ;
 		double r4 = (double) m / n;
 		
+		int r5 = m % n;
+		
 		System.out.println(r1);
 		System.out.println(r2);
 		System.out.println(r3);
 		System.out.println(r4);
+		System.out.println(r5);
 	}
 }
